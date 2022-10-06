@@ -1,0 +1,57 @@
+p{
+    font-size: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+body {
+    background-color: rgb(255, 187, 0);
+}
+
+h1 {
+    background-color: rgb(242, 255, 127);
+    color: aliceblue;
+}
+#asdf{
+    color: brown;
+}
+
+#score {
+    float: right;
+    padding-right:20px;
+    font-size: 30px;
+}
+
+#timer{
+    float: left;
+    padding-left:20px;
+    font-size: 30px;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+p {
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-top: 10px;
+
+}
+
+ @keyframes example{
+
+
+    from {
+        box-shadow: 1px 1px 38px grey;
+    }
+    
+    to {
+        box-shadow: 1px 1px 38px white;
+}
+}
